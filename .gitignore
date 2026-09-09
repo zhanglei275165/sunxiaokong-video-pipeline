@@ -1,0 +1,47 @@
+# ===== 模型权重 / 大模型（体积巨大，不入库） =====
+*.safetensors
+*.ckpt
+*.gguf
+*.pt
+*.bin
+*.onnx
+*.torch
+
+# ===== 视频成片与音频（体积大，是产物不是源码） =====
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.mp3
+*.wav
+*.ogg
+
+# ===== 私人 / 大体积 / 非源码目录 =====
+素材库/
+video/
+_old_intro_backup/
+audio/
+_diag/
+_seg_*/
+img/
+img_dense/
+*.zip
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ===== 私人投稿/上架资料（含账号信息，严禁公开） =====
+上架包/
+upload/
+
+# ===== 运行日志（垃圾，不入库） =====
+*.log
+
+# ===== 调试脚本 =====
+_diag.py
+_diag_outline.py
+_diag_text.py
